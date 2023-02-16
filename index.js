@@ -25,6 +25,26 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
+const [moo,neigh,baa,oink,cluck] = farmAnimals.split(' ');
+console.log(farmAnimals.split(` `)); 
+
+const [bessie, ,dolly,babe,little ] = farmAnimals.split(' ');
+console.log(farmAnimals.split(` `)); 
+
+const [blackAndWhite, ,black,pink] = farmAnimals.split(' ');
+console.log(farmAnimals.split(` `)); 
+
+const [red,orange,yellow, green,blue,indigo, violet] = colors;
+console.log();
+
+const [r,o,y,g,b,i,v] = colors;
+console.log();
+
+const [,,,,,indg,] = colors;
+
+const {muppetName,color,song,job,partner} = muppet
+const {song2,song4,} = nestedMuppet.album.theMuppetMovie;
+const {nestedJob, nestedPartner}= nestedMuppet
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
